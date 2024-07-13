@@ -6,7 +6,7 @@ console.log(number);
 
 // Task 2
 let string = "Priyanka";
-console.log(name);
+console.log(string);
 
 // Activity 2 : Constant Decalaration
 // Task 3
@@ -44,5 +44,5 @@ console.log(initialValue);
 // Activity 5 : Understanding const 
 // Task 6 
 const PI = 3.14;
-PI = 2.8;
+// PI = 2.8;  TypeError: Assignment to constant variable.
 console.log(PI);
