@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Manipulation</title>
+    <style>
+        .highlight {
+            background-color: red;
+            color: black;
+            font-weight: bold;
+        }
+
+        #my-box {
+            width: 100px;
+            height: 100px;
+            border: 5px solid black;
+            transition: border-color 0.3s ease;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="color-div" id="myElement">Hello Priyanka</h1>
+    <br>
+    <button id="color-button" onclick="changeText()">Change Text</button>
+    <button class="color-button">Click me to change background color</button>
+    <br>
+    
+    <h3>Fruit List</h3>
+    <ul id="my-list"">
+        <li>Apple</li>
+        <li>Mango</li>
+        <li>Grapes</li>
+    </ul>
+    <button id="add-item-button">Add Item</button>
+    <button id="remove-button">Remove Last Item</button>
+    <br>
+    <br>
+    <div id="element-to-remove">This element will be removed.</div>
+    <br>
+    <button id="remove-button">Remove Element</button>
+    <br>
+    <br>
+    <img id="my-image" src="https://i.pinimg.com/564x/71/c0/ee/71c0ee978f3b148ac90f57c1ef97e273.jpg" height="300px" alt="Turtle Image">
+    <br>
+    <button id="change-src-button">Change Image Source</button>
+    <script src="Day9.js"></script>
+    <br>
+    <p id="my-element">This is a paragraph.</p>
+    <button id="add-class-button">Add Class</button>
+    <button id="remove-class-button">Remove Class</button>
+    <br>
+    <p id="my-paragraph">This is the original text of the paragraph.</p>
+    <button id="change-text-button">Change Text</button>
+    <br>
+    <div id="my-box"></div>
+</body>
+</html>
