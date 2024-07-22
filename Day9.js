@@ -1,4 +1,4 @@
-// DAY 8: DOM Manipulation
+// DAY 9: DOM Manipulation
 // Activity 1 : Selecting and Manipulating Elements
 // Task 1
 function changeText() {
