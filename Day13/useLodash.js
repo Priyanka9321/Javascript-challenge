@@ -1,5 +1,5 @@
 // Task 6
-// lodash module is use to capitalize first Letter
+// npm i lodash - install
 
 import _ from "lodash";
 

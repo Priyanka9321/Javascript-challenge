@@ -1,4 +1,5 @@
 // Task 7
+// npm i axios - install
 import axios from "axios";
 
 // Example URL for a public API
