@@ -38,4 +38,5 @@ let remainder = utils.remainder(10, 20);
 console.log("remainder:", remainder);
 
 // Activity 4 : Using Third-Party Modules 
-// Task 6
+// Task 6 - useLodash.js 
+// Task 7 - fetchData.js
