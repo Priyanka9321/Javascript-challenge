@@ -1,4 +1,4 @@
-// DAY 15: Recursion
+// DAY 16: Recursion
 // Activity 1 : Basic Recursion
 // Task 1
 function factorial(n) {
