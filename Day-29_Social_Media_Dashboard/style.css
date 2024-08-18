@@ -1,0 +1,157 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+}
+
+/* Authentication section */
+#auth-section {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#login-form input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#login-form .btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #1a73e8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#login-form .btn:hover {
+    background-color: #1559b0;
+}
+
+/* Dashboard layout */
+.hidden {
+    display: none;
+}
+
+header {
+    background-color: #1a73e8;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.create-post {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#create-post textarea, #create-post input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.create-post .btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #1a73e8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.create-post .btn:hover {
+    background-color: #1559b0;
+}
+
+/* Feed and post styles */
+.feed {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.post {
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+}
+
+.post:hover {
+    transform: translateY(-5px);
+}
+
+.post .post-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.post .post-header h3 {
+    margin: 0;
+}
+
+.post .post-header .timestamp {
+    color: #888;
+    font-size: 0.9rem;
+}
+
+.post .post-body img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.post .post-actions {
+    margin-top: 10px;
+}
+
+.post .post-actions button {
+    margin-right: 10px;
+    background-color: #f0f2f5;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.post .post-actions button:hover {
+    background-color: #ddd;
+}
+
+.post .like-count, .post .comment-count {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+/* Differentiate logged-in user's posts */
+.logged-in-user-post {
+    border: 2px solid #1a73e8;
+}
